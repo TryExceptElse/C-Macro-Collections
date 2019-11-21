@@ -1,0 +1,3 @@
+add_executable(ex_separate_header_source containers.c main.c)
+target_include_directories(ex_separate_header_source PUBLIC ${CMC_INCLUDE})
+target_link_libraries(ex_separate_header_source m)

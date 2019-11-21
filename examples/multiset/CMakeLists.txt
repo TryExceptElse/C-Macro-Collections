@@ -1,0 +1,1 @@
+add_example(multiset_operations multiset_operations.c)
